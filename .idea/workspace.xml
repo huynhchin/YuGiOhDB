@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dc6a2bfe-fa1f-4d10-8454-547e2764fe08" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YugiohDB.py" afterPath="$PROJECT_DIR$/YugiohDB.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,16 +17,10 @@
       <file leaf-file-name="YugiohDB.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/YugiohDB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="714">
+              <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
               <folding>
-                <element signature="e#13#35#0" expanded="true" />
-                <marker date="1512858357005" expanded="true" signature="605:643" ph="SELECT count... Country" />
-                <marker date="1512858357005" expanded="true" signature="1824:1862" ph="SELECT code,... Country" />
-                <marker date="1512858357005" expanded="true" signature="2302:2345" ph="INSERT INTO Country... " />
-                <marker date="1512858357005" expanded="true" signature="4115:4342" ph="SELECT code,... Country" />
-                <marker date="1512858357005" expanded="true" signature="5402:5440" ph="SELECT code,... Country" />
-                <marker date="1512858357005" expanded="true" signature="5882:5974" ph="UPDATE Count... " />
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -269,6 +262,14 @@
       <option name="presentableId" value="Default" />
       <updated>1512856798731</updated>
     </task>
+    <task id="LOCAL-00001" summary="change">
+      <created>1512858748626</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512858748626</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -302,6 +303,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -312,29 +317,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#13#35#0" expanded="true" />
-            <marker date="1512858357005" expanded="true" signature="605:643" ph="SELECT count... Country" />
-            <marker date="1512858357005" expanded="true" signature="1824:1862" ph="SELECT code,... Country" />
-            <marker date="1512858357005" expanded="true" signature="2302:2345" ph="INSERT INTO Country... " />
-            <marker date="1512858357005" expanded="true" signature="4115:4342" ph="SELECT code,... Country" />
-            <marker date="1512858357005" expanded="true" signature="5402:5440" ph="SELECT code,... Country" />
-            <marker date="1512858357005" expanded="true" signature="5882:5974" ph="UPDATE Count... " />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YugiohDB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="714">
+          <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
           <folding>
-            <element signature="e#13#35#0" expanded="true" />
-            <marker date="1512858357005" expanded="true" signature="605:643" ph="SELECT count... Country" />
-            <marker date="1512858357005" expanded="true" signature="1824:1862" ph="SELECT code,... Country" />
-            <marker date="1512858357005" expanded="true" signature="2302:2345" ph="INSERT INTO Country... " />
-            <marker date="1512858357005" expanded="true" signature="4115:4342" ph="SELECT code,... Country" />
-            <marker date="1512858357005" expanded="true" signature="5402:5440" ph="SELECT code,... Country" />
-            <marker date="1512858357005" expanded="true" signature="5882:5974" ph="UPDATE Count... " />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
