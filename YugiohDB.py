@@ -1,6 +1,10 @@
 import mysql.connector
 import config
 
+#the user creates his own deck
+def createDeck():
+    name = input("Enter name for deck: ")
+
 #Main Menu
 def main():
     try:
@@ -13,7 +17,7 @@ def main():
         exitProgram = False
         while exitProgram == False:
             print("")
-            print("1. List countries")
+            print("1. Look at existing")
             print("2. Add country")
             print("3. Find countries based on gdp and inflation")
             print("4. Update country's gdp and inflation")
@@ -21,13 +25,9 @@ def main():
             command = input("Enter your choice (1-5): ")
             print("")
             if command == 1:
-                listCountries()
             elif command == 2:
-                addCountry()
             elif command == 3:
-                findCountries()
             elif command == 4:
-                updateCountry()
             elif command == 5:
                 exitProgram = True
                 con.close()
