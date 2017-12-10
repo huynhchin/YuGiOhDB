@@ -26,7 +26,7 @@ def existDeck():
     print("")
     print("Cards in Deck:")
     for (name) in rs2:
-        print("{}".format(name))
+        print(name[0].encode('utf-8'))
     rs2.close()
     rs.close()
 
