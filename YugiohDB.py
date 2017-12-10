@@ -11,10 +11,29 @@ try:
 except mysql.connector.Error as err:
         print(err)
 
+#look at existing deck
+def existDeck():
+    rs = con.cursor()
+    query = 'SELECT * FROM Deck'
+    rs.execute(query)
+    for (name, description) in rs:
+        print('{} ({})'.format(name, description))
+    print("")
+    dName = str(raw_input("Which deck do you want to look at? (Enter Name) "))
+    rs2 = con.cursor()
+    query2 = "SELECT nameM FROM ConsistsMo WHERE nameD = %s UNION SELECT nameS From ConsistsMa WHERE nameD = %s UNION SELECT nameT FROM ConsistsTr WHERE nameD = %s"
+    rs2.execute(query2, (dName, dName, dName))
+    print("")
+    print("Cards in Deck:")
+    for (name) in rs2:
+        print("{}".format(name))
+    rs2.close()
+    rs.close()
+
 #the user creates his own deck
 def createDeck():
-    dName = input("Enter name for deck: ")
-    description = input("Enter a description for this deck: ")
+    dName = str(raw_input("Enter name for deck: "))
+    description = str(raw_input("Enter a description for this deck: "))
     rs = con.cursor()
     query = 'INSERT INTO Deck VALUES (%s, %s)'
     rs.execute(query, (dName, description))
@@ -36,7 +55,7 @@ def main():
         command = input("Enter your choice (1-5): ")
         print("")
         if command == 1:
-            print("1")
+            existDeck()
         elif command == 2:
             createDeck()
         elif command == 3:
