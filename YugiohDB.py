@@ -21,12 +21,18 @@ def existDeck():
     print("")
     dName = str(raw_input("Which deck do you want to look at? (Enter Name) "))
     rs2 = con.cursor()
-    query2 = "SELECT nameM FROM ConsistsMo WHERE nameD = %s UNION SELECT nameS From ConsistsMa WHERE nameD = %s UNION SELECT nameT FROM ConsistsTr WHERE nameD = %s"
+    query2 = "SELECT nameM, copy FROM ConsistsMo WHERE nameD = %s UNION SELECT nameS, copy From ConsistsMa WHERE nameD = %s UNION SELECT nameT, copy FROM ConsistsTr WHERE nameD = %s"
     rs2.execute(query2, (dName, dName, dName))
     print("")
     print("Cards in Deck:")
     for (name) in rs2:
-        print(name[0].encode('utf-8'))
+        print(name[0].encode('utf-8'), name[1])
+    print("")
+    dNameTwo = str(raw_input("Which deck do you want to look at? (Enter Name) "))
+    rs3 = con.cursor()
+    query3  = ('''SELECT COUNT(*) FROM ConsistsMo c, Monster m Where m.name = c.nameM AND c.nameD = %s''')
+    rs3.execute(query3%(dNameTwo))
+    rs3.close()
     rs2.close()
     rs.close()
 
