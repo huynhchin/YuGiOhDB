@@ -27,6 +27,15 @@ def existDeck():
     print("Cards in Deck:")
     for (name) in rs2:
         print(name[0].encode('utf-8'), name[1])
+<<<<<<< HEAD
+=======
+    print("")
+    dNameTwo = str(raw_input("Which deck do you want to look at? (Enter Name) "))
+    rs3 = con.cursor()
+    query3  = ('''SELECT COUNT(*) FROM ConsistsMo c, Monster m Where m.name = c.nameM AND c.nameD = %s''')
+    rs3.execute(query3%(dNameTwo))
+    rs3.close()
+>>>>>>> 4ec81e88f8403d7d875352a612d4aa071b4cdb21
     rs2.close()
     rs.close()
 
