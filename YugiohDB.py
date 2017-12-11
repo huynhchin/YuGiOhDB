@@ -21,12 +21,12 @@ def existDeck():
     print("")
     dName = str(raw_input("Which deck do you want to look at? (Enter Name) "))
     rs2 = con.cursor()
-    query2 = "SELECT nameM FROM ConsistsMo WHERE nameD = %s UNION SELECT nameS From ConsistsMa WHERE nameD = %s UNION SELECT nameT FROM ConsistsTr WHERE nameD = %s"
+    query2 = "SELECT nameM, copy FROM ConsistsMo WHERE nameD = %s UNION SELECT nameS, copy From ConsistsMa WHERE nameD = %s UNION SELECT nameT, copy FROM ConsistsTr WHERE nameD = %s"
     rs2.execute(query2, (dName, dName, dName))
     print("")
     print("Cards in Deck:")
     for (name) in rs2:
-        print(name[0].encode('utf-8'))
+        print(name[0].encode('utf-8'), name[1])
     rs2.close()
     rs.close()
 
@@ -41,6 +41,17 @@ def createDeck():
     print("")
     print("Deck has been added.")
     rs.close()
+
+#add card to a deck
+def addCard():
+    dName = str(raw_input("Enter deck's name: "))
+    rs = con.cursor()
+    query = "SELECT name FROM Deck WHERE %s EXISTS (SELECT name FROM Deck)"
+    rs.execute(query, dName)
+    if (rs == False):
+        print("Deck doesn't exist.")
+        create = str(raw_input("Do you want to create a deck with this name? (y or n) "))
+        if()
 
 #Main Menu
 def main():
