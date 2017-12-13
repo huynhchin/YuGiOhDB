@@ -21,18 +21,12 @@ def existDeck():
     print("")
     dName = str(raw_input("Which deck do you want to look at? (Enter Name) "))
     rs2 = con.cursor()
-    query2 = "SELECT nameM, copy FROM ConsistsMo WHERE nameD = %s UNION SELECT nameS, copy From ConsistsMa WHERE nameD = %s UNION SELECT nameT, copy FROM ConsistsTr WHERE nameD = %s"
+    query2 = "SELECT nameM FROM ConsistsMo WHERE nameD = %s UNION SELECT nameS From ConsistsMa WHERE nameD = %s UNION SELECT nameT FROM ConsistsTr WHERE nameD = %s"
     rs2.execute(query2, (dName, dName, dName))
     print("")
     print("Cards in Deck:")
     for (name) in rs2:
-        print(name[0].encode('utf-8'), name[1])
-    print("")
-    dNameTwo = str(raw_input("Which deck do you want to look at? (Enter Name) "))
-    rs3 = con.cursor()
-    query3  = ('''SELECT COUNT(*) FROM ConsistsMo c, Monster m Where m.name = c.nameM AND c.nameD = %s''')
-    rs3.execute(query3%(dNameTwo))
-    rs3.close()
+        print(name[0].encode('utf-8'))
     rs2.close()
     rs.close()
 
@@ -48,6 +42,90 @@ def createDeck():
     print("Deck has been added.")
     rs.close()
 
+	
+def analyzeDeck():
+		print("What category would you like to search cards on?")
+		print("")
+		print("1. Look up by Monster name")
+		print("2. Look up by Monster class")
+		print("3. Look up by Monster Attack Points")
+		print("4. Look up by Monster Defense Points")
+		print("5. Look up by Monster level")
+		print("6. Look up by Monster type")
+		print("7. Look up spell")
+		print("8. Look up trap")
+		print("9. Look up by 2 filters")
+		print("10. Exit")
+		choice = input("Enter your choice (1-9): ")
+		rs = con.cursor
+		print("")
+		if choice == 1:
+			cname = str(raw_input("Enter card name: ")
+			query = 'Select name from Monster where name = %s'
+			rs.execute(query, cname)
+			print("")
+			for (cname) in rs:
+				print(cname[0].encode('utf-8'))
+		elif choice == 2:
+			cclass = str(raw_input("Enter card class (Dark, Light, Earth, Water, Fire, etc.: ")
+			query = 'Select name from Monster where class = %s'
+			rs.execute(query, cclass)
+			print("")
+			for (cclass) in rs:
+				print(cclass[0].encode('utf-8'))
+		elif choice == 3:
+			cname = str(raw_input("Enter card name: ")
+			query = 'Select name from Monster where name = %s'
+			rs.execute(query, cname)
+			print("")
+			for (name) in rs:
+				print(name[0].encode('utf-8'))
+		elif choice == 4:
+			cname = str(raw_input("Enter card name: ")
+			query = 'Select name from Monster where name = %s'
+			rs.execute(query, cname)
+			print("")
+			for (name) in rs:
+				print(name[0].encode('utf-8'))
+		elif choice == 5:
+			cname = str(raw_input("Enter card name: ")
+			query = 'Select name from Monster where name = %s'
+			rs.execute(query, cname)
+			print("")
+			for (name) in rs:
+				print(name[0].encode('utf-8'))
+		elif choice == 6:
+			cname = str(raw_input("Enter card name: ")
+			query = 'Select name from Monster where name = %s'
+			rs.execute(query, cname)
+			print("")
+			for (name) in rs:
+				print(name[0].encode('utf-8'))
+		elif choice == 7:
+			cname = str(raw_input("Enter card name: ")
+			query = 'Select name from Monster where name = %s'
+			rs.execute(query, cname)
+			print("")
+			for (name) in rs:
+				print(name[0].encode('utf-8'))
+		elif choice == 8:
+			cname = str(raw_input("Enter card name: ")
+			query = 'Select name from Monster where name = %s'
+			rs.execute(query, cname)
+			print("")
+			for (name) in rs:
+				print(name[0].encode('utf-8'))
+		elif choice == 9:
+			cname = str(raw_input("Enter card name: ")
+			query = 'Select name from Monster where name = %s'
+			rs.execute(query, cname)
+			print("")
+			for (name) in rs:
+				print(name[0].encode('utf-8'))
+		elif choice == 10:
+		
+		else:
+			print("Not a valid delection. Please pick from the choices above")
 #Main Menu
 def main():
     exitProgram = False
@@ -67,7 +145,7 @@ def main():
         elif command == 3:
             print("3")
         elif command == 4:
-            print("4")
+            analyzeDeck()
         elif command == 5:
             con.close()
             exitProgram = True
