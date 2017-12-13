@@ -42,10 +42,7 @@ def createDeck():
     print("Deck has been created.")
     rs.close()
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 481282f038a3cfcfa2d04e830433504449513df3
 #add card to a deck
 def addCard():
     dName = str(raw_input("Enter deck's name: "))
@@ -87,93 +84,7 @@ def addCard():
         elif (confirm == 'n' or confirm == 'no'):
             analyzeDeck()
 
-<<<<<<< HEAD
-def analyzeDeck():
-    print("What category would you like to search cards on?")
-    print("")
-    print("1. Look up by Monster name")
-    print("2. Look up by Monster class")
-    print("3. Look up by Monster Attack Points")
-    print("4. Look up by Monster Defense Points")
-    print("5. Look up by Monster level")
-    print("6. Look up by Monster type")
-    print("7. Look up spell")
-    print("8. Look up trap")
-    print("9. Look up by 2 filters")
-    print("10. Exit")
-    choice = input("Enter your choice (1-9): ")
-    rs = con.cursor
-    print("")
-    if choice == 1:
-        cname = str(raw_input("Enter card name: ")
-        query = 'Select name from Monster where name = %s'
-        rs.execute(query, cname)
-        print("")
-        for (cname) in rs:
-            print(cname[0].encode('utf-8'))
-    elif choice == 2:
-        cclass = str(raw_input("Enter card class (Dark, Light, Earth, Water, Fire, etc.: ")
-        query = 'Select name from Monster where class = %s'
-        rs.execute(query, cclass)
-        print("")
-        for (cclass) in rs:
-            print(cclass[0].encode('utf-8'))
-    elif choice == 3:
-        cname = str(raw_input("Enter card name: ")
-        query = 'Select name from Monster where name = %s'
-        rs.execute(query, cname)
-        print("")
-        for (name) in rs:
-            print(name[0].encode('utf-8'))
-    elif choice == 4:
-        cname = str(raw_input("Enter card name: ")
-        query = 'Select name from Monster where name = %s'
-        rs.execute(query, cname)
-        print("")
-        for (name) in rs:
-            print(name[0].encode('utf-8'))
-    elif choice == 5:
-        cname = str(raw_input("Enter card name: ")
-        query = 'Select name from Monster where name = %s'
-        rs.execute(query, cname)
-        print("")
-        for (name) in rs:
-            print(name[0].encode('utf-8'))
-    elif choice == 6:
-        cname = str(raw_input("Enter card name: ")
-        query = 'Select name from Monster where name = %s'
-        rs.execute(query, cname)
-        print("")
-        for (name) in rs:
-            print(name[0].encode('utf-8'))
-    elif choice == 7:
-        cname = str(raw_input("Enter card name: ")
-        query = 'Select name from Monster where name = %s'
-        rs.execute(query, cname)
-        print("")
-        for (name) in rs:
-            print(name[0].encode('utf-8'))
-    elif choice == 8:
-        cname = str(raw_input("Enter card name: ")
-        query = 'Select name from Monster where name = %s'
-        rs.execute(query, cname)
-        print("")
-        for (name) in rs:
-            print(name[0].encode('utf-8'))
-    elif choice == 9:
-        cname = str(raw_input("Enter card name: ")
-        query = 'Select name from Monster where name = %s'
-        rs.execute(query, cname)
-        print("")
-        for (name) in rs:
-            print(name[0].encode('utf-8'))
-    elif choice == 10:
 
-    else:
-        print("Not a valid delection. Please pick from the choices above")
-
-=======
-	
 def analyzeDeck():
 		print("What category would you like to search cards on?")
 		print("")
@@ -293,7 +204,6 @@ def analyzeDeck():
 		else:
 			print("Not a valid delection. Please pick from the choices above")
 			
->>>>>>> 481282f038a3cfcfa2d04e830433504449513df3
 #Main Menu
 def main():
     exitProgram = False
