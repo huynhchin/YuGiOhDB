@@ -21,19 +21,19 @@
       <file leaf-file-name="YugiohDB.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/YugiohDB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="60" column="10" lean-forward="true" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+            <state relative-caret-position="546">
+              <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-                <marker date="1512953884673" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-                <marker date="1512953884673" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
-                <marker date="1512953884673" expanded="true" signature="658:715" ph="SELECT nameM... " />
-                <marker date="1512953884673" expanded="true" signature="658:825" ph="SELECT nameM... " />
-                <marker date="1512953884673" expanded="true" signature="716:767" ph="SELECT nameS... " />
-                <marker date="1512953884673" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
-                <marker date="1512953884673" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
-                <marker date="1512953884673" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
-                <marker date="1512953884673" expanded="true" signature="1789:1850" ph="SELECT name Deck" />
+                <marker date="1513150637761" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+                <marker date="1513150637761" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
+                <marker date="1513150637761" expanded="true" signature="658:715" ph="SELECT nameM... " />
+                <marker date="1513150637761" expanded="true" signature="658:825" ph="SELECT nameM... " />
+                <marker date="1513150637761" expanded="true" signature="716:767" ph="SELECT nameS... " />
+                <marker date="1513150637761" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
+                <marker date="1513150637761" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
+                <marker date="1513150637761" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
+                <marker date="1513150637761" expanded="true" signature="1791:1852" ph="SELECT name Deck" />
               </folding>
             </state>
           </provider>
@@ -368,15 +368,15 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1512953884673" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1512953884673" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1512953884673" expanded="true" signature="658:715" ph="SELECT nameM... " />
-            <marker date="1512953884673" expanded="true" signature="658:825" ph="SELECT nameM... " />
-            <marker date="1512953884673" expanded="true" signature="716:767" ph="SELECT nameS... " />
-            <marker date="1512953884673" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
-            <marker date="1512953884673" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
-            <marker date="1512953884673" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
-            <marker date="1512953884673" expanded="true" signature="1789:1850" ph="SELECT name Deck" />
+            <marker date="1513150637761" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513150637761" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="658:715" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="658:825" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="716:767" ph="SELECT nameS... " />
+            <marker date="1513150637761" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
+            <marker date="1513150637761" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
+            <marker date="1513150637761" expanded="true" signature="1791:1852" ph="SELECT name Deck" />
           </folding>
         </state>
       </provider>
@@ -387,15 +387,15 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1512953884673" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1512953884673" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1512953884673" expanded="true" signature="658:715" ph="SELECT nameM... " />
-            <marker date="1512953884673" expanded="true" signature="658:825" ph="SELECT nameM... " />
-            <marker date="1512953884673" expanded="true" signature="716:767" ph="SELECT nameS... " />
-            <marker date="1512953884673" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
-            <marker date="1512953884673" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
-            <marker date="1512953884673" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
-            <marker date="1512953884673" expanded="true" signature="1789:1850" ph="SELECT name Deck" />
+            <marker date="1513150637761" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513150637761" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="658:715" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="658:825" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="716:767" ph="SELECT nameS... " />
+            <marker date="1513150637761" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
+            <marker date="1513150637761" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
+            <marker date="1513150637761" expanded="true" signature="1791:1852" ph="SELECT name Deck" />
           </folding>
         </state>
       </provider>
@@ -406,15 +406,15 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1512953884673" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1512953884673" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1512953884673" expanded="true" signature="658:715" ph="SELECT nameM... " />
-            <marker date="1512953884673" expanded="true" signature="658:825" ph="SELECT nameM... " />
-            <marker date="1512953884673" expanded="true" signature="716:767" ph="SELECT nameS... " />
-            <marker date="1512953884673" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
-            <marker date="1512953884673" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
-            <marker date="1512953884673" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
-            <marker date="1512953884673" expanded="true" signature="1789:1850" ph="SELECT name Deck" />
+            <marker date="1513150637761" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513150637761" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="658:715" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="658:825" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="716:767" ph="SELECT nameS... " />
+            <marker date="1513150637761" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
+            <marker date="1513150637761" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
+            <marker date="1513150637761" expanded="true" signature="1791:1852" ph="SELECT name Deck" />
           </folding>
         </state>
       </provider>
@@ -425,15 +425,15 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1512953884673" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1512953884673" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1512953884673" expanded="true" signature="658:715" ph="SELECT nameM... " />
-            <marker date="1512953884673" expanded="true" signature="658:825" ph="SELECT nameM... " />
-            <marker date="1512953884673" expanded="true" signature="716:767" ph="SELECT nameS... " />
-            <marker date="1512953884673" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
-            <marker date="1512953884673" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
-            <marker date="1512953884673" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
-            <marker date="1512953884673" expanded="true" signature="1789:1850" ph="SELECT name Deck" />
+            <marker date="1513150637761" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513150637761" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="658:715" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="658:825" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="716:767" ph="SELECT nameS... " />
+            <marker date="1513150637761" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
+            <marker date="1513150637761" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
+            <marker date="1513150637761" expanded="true" signature="1791:1852" ph="SELECT name Deck" />
           </folding>
         </state>
       </provider>
@@ -444,15 +444,15 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1512953884673" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1512953884673" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1512953884673" expanded="true" signature="658:715" ph="SELECT nameM... " />
-            <marker date="1512953884673" expanded="true" signature="658:825" ph="SELECT nameM... " />
-            <marker date="1512953884673" expanded="true" signature="716:767" ph="SELECT nameS... " />
-            <marker date="1512953884673" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
-            <marker date="1512953884673" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
-            <marker date="1512953884673" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
-            <marker date="1512953884673" expanded="true" signature="1789:1850" ph="SELECT name Deck" />
+            <marker date="1513150637761" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513150637761" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="658:715" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="658:825" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="716:767" ph="SELECT nameS... " />
+            <marker date="1513150637761" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
+            <marker date="1513150637761" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
+            <marker date="1513150637761" expanded="true" signature="1791:1852" ph="SELECT name Deck" />
           </folding>
         </state>
       </provider>
@@ -463,15 +463,15 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1512953884673" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1512953884673" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1512953884673" expanded="true" signature="658:715" ph="SELECT nameM... " />
-            <marker date="1512953884673" expanded="true" signature="658:825" ph="SELECT nameM... " />
-            <marker date="1512953884673" expanded="true" signature="716:767" ph="SELECT nameS... " />
-            <marker date="1512953884673" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
-            <marker date="1512953884673" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
-            <marker date="1512953884673" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
-            <marker date="1512953884673" expanded="true" signature="1789:1850" ph="SELECT name Deck" />
+            <marker date="1513150637761" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513150637761" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="658:715" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="658:825" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="716:767" ph="SELECT nameS... " />
+            <marker date="1513150637761" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
+            <marker date="1513150637761" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
+            <marker date="1513150637761" expanded="true" signature="1791:1852" ph="SELECT name Deck" />
           </folding>
         </state>
       </provider>
@@ -482,15 +482,72 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1512953884673" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1512953884673" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1512953884673" expanded="true" signature="658:715" ph="SELECT nameM... " />
-            <marker date="1512953884673" expanded="true" signature="658:825" ph="SELECT nameM... " />
-            <marker date="1512953884673" expanded="true" signature="716:767" ph="SELECT nameS... " />
-            <marker date="1512953884673" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
-            <marker date="1512953884673" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
-            <marker date="1512953884673" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
-            <marker date="1512953884673" expanded="true" signature="1789:1850" ph="SELECT name Deck" />
+            <marker date="1513150637761" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513150637761" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="658:715" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="658:825" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="716:767" ph="SELECT nameS... " />
+            <marker date="1513150637761" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
+            <marker date="1513150637761" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
+            <marker date="1513150637761" expanded="true" signature="1791:1852" ph="SELECT name Deck" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YugiohDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1513150637761" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513150637761" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="658:715" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="658:825" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="716:767" ph="SELECT nameS... " />
+            <marker date="1513150637761" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
+            <marker date="1513150637761" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
+            <marker date="1513150637761" expanded="true" signature="1791:1852" ph="SELECT name Deck" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YugiohDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1513150637761" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513150637761" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="658:715" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="658:825" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="716:767" ph="SELECT nameS... " />
+            <marker date="1513150637761" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
+            <marker date="1513150637761" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
+            <marker date="1513150637761" expanded="true" signature="1791:1852" ph="SELECT name Deck" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YugiohDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1513150637761" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513150637761" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="658:715" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="658:825" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="716:767" ph="SELECT nameS... " />
+            <marker date="1513150637761" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
+            <marker date="1513150637761" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
+            <marker date="1513150637761" expanded="true" signature="1791:1852" ph="SELECT name Deck" />
           </folding>
         </state>
       </provider>
@@ -501,25 +558,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YugiohDB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="60" column="10" lean-forward="true" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+        <state relative-caret-position="546">
+          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1512953884673" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1512953884673" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1512953884673" expanded="true" signature="658:715" ph="SELECT nameM... " />
-            <marker date="1512953884673" expanded="true" signature="658:825" ph="SELECT nameM... " />
-            <marker date="1512953884673" expanded="true" signature="716:767" ph="SELECT nameS... " />
-            <marker date="1512953884673" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
-            <marker date="1512953884673" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
-            <marker date="1512953884673" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
-            <marker date="1512953884673" expanded="true" signature="1789:1850" ph="SELECT name Deck" />
+            <marker date="1513150637761" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513150637761" expanded="true" signature="658:709" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="658:715" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="658:825" ph="SELECT nameM... " />
+            <marker date="1513150637761" expanded="true" signature="716:767" ph="SELECT nameS... " />
+            <marker date="1513150637761" expanded="true" signature="774:825" ph="SELECT nameT... ConsistsTr" />
+            <marker date="1513150637761" expanded="true" signature="1128:1212" ph="SELECT COUNT... ConsistsMo" />
+            <marker date="1513150637761" expanded="true" signature="1510:1542" ph="INSERT INTO Deck... " />
+            <marker date="1513150637761" expanded="true" signature="1791:1852" ph="SELECT name Deck" />
           </folding>
         </state>
       </provider>

@@ -45,7 +45,7 @@ def createDeck():
     rs.execute(query, (dName, description))
     con.commit()
     print("")
-    print("Deck has been added.")
+    print("Deck has been created.")
     rs.close()
 
 #add card to a deck
@@ -56,7 +56,11 @@ def addCard():
     rs.execute(query, dName)
     if (rs == False):
         print("Deck doesn't exist.")
-        create = str(raw_input("Do you want to create a deck with this name? (y or n) "))
+        create = str(raw_input("Do you want to create this deck? (y or n) "))
+        if (create == 'y' or create == 'yes'):
+            createDeck()
+        elif (create == 'n' or create == 'no'):
+            addCard()
 
 #Main Menu
 def main():
