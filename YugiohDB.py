@@ -42,7 +42,7 @@ def createDeck():
     print("Deck has been created.")
     rs.close()
 
-<<<<<<< HEAD
+
 #add card to a deck
 def addCard():
     dName = str(raw_input("Enter deck's name: "))
@@ -57,92 +57,126 @@ def addCard():
         elif (create == 'n' or create == 'no'):
             addCard()
 
-=======
 	
 def analyzeDeck():
 		print("What category would you like to search cards on?")
 		print("")
-		print("1. Look up by Monster name")
-		print("2. Look up by Monster class")
-		print("3. Look up by Monster Attack Points")
-		print("4. Look up by Monster Defense Points")
-		print("5. Look up by Monster level")
-		print("6. Look up by Monster type")
-		print("7. Look up spell")
-		print("8. Look up trap")
-		print("9. Look up by 2 filters")
-		print("10. Exit")
-		choice = input("Enter your choice (1-9): ")
+		print("1. Look up Monster Card")
+		print("2. Look up Magic Card")
+		print("3. Look up Trap Card")
+		choice = input("Enter your choice (1-3): ")
 		rs = con.cursor
 		print("")
 		if choice == 1:
-			cname = str(raw_input("Enter card name: ")
-			query = 'Select name from Monster where name = %s'
-			rs.execute(query, cname)
+			print("1. Look up by name")
+			print("2. Look up by level")
+			print("3. Look up by Attack")
+			print("4. Look up by Defense")
+			print("5. Look up by Type")
+			print("6. Look up by Class")
+			print("7. Look up by 2 filters")
+			choice2 = input("Enter choice: ")
 			print("")
-			for (cname) in rs:
-				print(cname[0].encode('utf-8'))
+			if choice2 == 1:
+				c_name = str(raw_input('Enter card name: ')
+				query = "Select name from Monster where name = %s"
+				rs.execute(query, c_name)
+				print("")
+				for (cname) in rs:
+					print(c_name[0].encode('utf-8'))
+			elif choice2 == 2:
+				c_level = input('Enter Card level (1-12): ')
+				query2 = 'SELECT name FROM Monster WHERE level = %s'
+				rs.execute(query2, c_level)
+				print("")
+				for (name) in rs:
+					print (name[0].encode('utf-8')
+			elif choice2 == 3:
+				c_Attack_max = input('Enter Max Value: ')
+				c_Attack_min = input('Enter Min Value: ')
+				query3 = 'Select name from Monster where Attack_Points between %s AND %s'
+				rs.execute(query3, (c_Attack_min, c_Attack_max))
+				print("")
+				for (name) in rs:
+					print (name[0].encode('utf-8')
+			elif choice2 == 4:
+				c_Defense_max = input('Enter Max Value: ')
+				c_Defense_min = input('Enter Min Value: ')
+				query4 = 'Select name from Monster where Defense_Point between %s AND %s'
+				rs.execute(query4, (c_Defense_min, c_Defense_max))
+				print("")
+				for (name) in rs:
+					print (name[0].encode('utf-8')
+			elif choice2 == 5:
+				c_type = str(raw_input('Enter type of Monster: '))
+				c_type = '%' + c_type
+				query5 = 'Select name from Monster where type = %s'
+				rs.execute(query5, c_type)
+				print("")
+				for (name) in rs:
+					print (name[0].encode('utf-8')
+			elif choice2 == 6:
+				c_class = input('Enter Card Class (Dark, Light, Earth, Water, Fire, Divine): ')
+				query2 = 'Select name from Monster where class = %s'
+				rs.execute(query2, c_class)
+				print("")
+				for (name) in rs:
+					print (name[0].encode('utf-8')
+			elif choice2 == 7:
+				print('Which filters do you want?')
+				print("1. Look up by name")
+				print("2. Look up by level")
+				print("3. Look up by Attack")
+				print("4. Look up by Defense")
+				print("5. Look up by Type")
+				print("6. Look up by Class")
+				filter1 = input('Enter Number of 1st filter: ')
+				filter2 = input('Enter Number of 2nd filter: ')
+				if (filter1 == 1 and filter2 == 2) or (filter1 == 2 and filter2 == 1):
+					f_name = str(raw_input('Enter card name: ')
+					f_level = input('Enter Card level: ')
+					query = 'Select name, level from Monster where name = %s AND level = %s'
+					rs.execute(query, (f_name, f_level)
+					print("")
+					for (f_name, f_level) in rs:
+						print(f_name[0].encode('utf-8'), f_level[0].encode('utf-8'))
+						
+				elif (filter1 == 1 and filter2 == 3) or (filter1 == 3 and filter2 == 1):
+					print('1')
+				elif (filter1 == 2 and filter2 == 3) or (filter1 == 3 and filter2 == 2):
+					print('1')
+				elif (filter1 == 1 and filter2 == 4) or (filter1 == 4 and filter2 == 1):
+					print('1')
+				elif (filter1 == 2 and filter2 == 4) or (filter1 == 4 and filter2 == 2):
+					print('1')
+				elif (filter1 == 3 and filter2 == 4) or (filter1 == 4 and filter2 == 3):
+					print('1')
+				elif (filter1 == 1 and filter2 == 5) or (filter1 == 5 and filter2 == 1):
+					print('1')
+				elif (filter1 == 2 and filter2 == 5) or (filter1 == 5 and filter2 == 2):
+					print('1')
+				elif (filter1 == 3 and filter2 == 5) or (filter1 == 5 and filter2 == 3):
+					print('1')
+				elif (filter1 == 4 and filter2 == 5) or (filter1 == 5 and filter2 == 4):
+					print('1')
+				elif (filter1 == 1 and filter2 == 6) or (filter1 == 6 and filter2 == 1):
+					print('1')
+				elif (filter1 == 2 and filter2 == 6) or (filter1 == 6 and filter2 == 2):
+					print('1')
+				elif (filter1 == 3 and filter2 == 6) or (filter1 == 6 and filter2 == 3):
+					print('1')
+				elif (filter1 == 4 and filter2 == 6) or (filter1 == 6 and filter2 == 4):
+					print('1')
+				elif (filter1 == 5 and filter2 == 6) or (filter1 == 6 and filter2 == 5):
+				
+				
 		elif choice == 2:
-			cclass = str(raw_input("Enter card class (Dark, Light, Earth, Water, Fire, etc.: ")
-			query = 'Select name from Monster where class = %s'
-			rs.execute(query, cclass)
-			print("")
-			for (cclass) in rs:
-				print(cclass[0].encode('utf-8'))
+			print('1')
 		elif choice == 3:
-			cname = str(raw_input("Enter card name: ")
-			query = 'Select name from Monster where name = %s'
-			rs.execute(query, cname)
-			print("")
-			for (name) in rs:
-				print(name[0].encode('utf-8'))
-		elif choice == 4:
-			cname = str(raw_input("Enter card name: ")
-			query = 'Select name from Monster where name = %s'
-			rs.execute(query, cname)
-			print("")
-			for (name) in rs:
-				print(name[0].encode('utf-8'))
-		elif choice == 5:
-			cname = str(raw_input("Enter card name: ")
-			query = 'Select name from Monster where name = %s'
-			rs.execute(query, cname)
-			print("")
-			for (name) in rs:
-				print(name[0].encode('utf-8'))
-		elif choice == 6:
-			cname = str(raw_input("Enter card name: ")
-			query = 'Select name from Monster where name = %s'
-			rs.execute(query, cname)
-			print("")
-			for (name) in rs:
-				print(name[0].encode('utf-8'))
-		elif choice == 7:
-			cname = str(raw_input("Enter card name: ")
-			query = 'Select name from Monster where name = %s'
-			rs.execute(query, cname)
-			print("")
-			for (name) in rs:
-				print(name[0].encode('utf-8'))
-		elif choice == 8:
-			cname = str(raw_input("Enter card name: ")
-			query = 'Select name from Monster where name = %s'
-			rs.execute(query, cname)
-			print("")
-			for (name) in rs:
-				print(name[0].encode('utf-8'))
-		elif choice == 9:
-			cname = str(raw_input("Enter card name: ")
-			query = 'Select name from Monster where name = %s'
-			rs.execute(query, cname)
-			print("")
-			for (name) in rs:
-				print(name[0].encode('utf-8'))
-		elif choice == 10:
-		
+			print('1')				
 		else:
 			print("Not a valid delection. Please pick from the choices above")
->>>>>>> e0e80d6f85bdd517ec3c162f7423d0ca4dd732e3
+			
 #Main Menu
 def main():
     exitProgram = False
