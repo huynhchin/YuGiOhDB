@@ -42,10 +42,6 @@ def createDeck():
     print("Deck has been created.")
     rs.close()
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 481282f038a3cfcfa2d04e830433504449513df3
 #add card to a deck
 def addCard():
     dName = str(raw_input("Enter deck's name: "))
@@ -65,115 +61,31 @@ def addCard():
             Ctype = str(raw_input("Is this card a monster, spell, or trap card? "))
             if (Ctype == 'monster'):
                 m_copy = input("Enter amount of copies you want: ")
-                m_name = input("Enter the monster name: ")
+                m_name = str(raw_input("Enter the monster name: "))
                 query2 = "INSERT INTO ConsistsMo VALUES (%s, %s, %s)"
                 rs.execute(query2, (m_copy, m_name, dName))
+                con.commit()
                 print("")
                 print("Card has been added.")
             elif (Ctype == 'spell'):
                 s_copy = input("Enter amount of copies you want: ")
-                s_name = input("Enter the spell name: ")
+                s_name = str(raw_input("Enter the spell name: "))
                 query3 = "INSERT INTO ConsistsMa VALUES (%s, %s, %s)"
                 rs.execute(query3, (s_copy, s_name, dName))
+                con.commit()
                 print("")
                 print("Card has been added.")
             elif (Ctype == 'trap'):
                 t_copy = input("Enter amount of copies you want: ")
-                t_name = input("Enter the trap name: ")
+                t_name = str(raw_input("Enter the trap name: "))
                 query4 = "INSERT INTO ConsistsTr VALUES (%s, %s, %s)"
                 rs.execute(query4, (t_copy, t_name, dName))
+                con.commit()
                 print("")
                 print("Card has been added.")
         elif (confirm == 'n' or confirm == 'no'):
             analyzeDeck()
 
-<<<<<<< HEAD
-def analyzeDeck():
-    print("What category would you like to search cards on?")
-    print("")
-    print("1. Look up by Monster name")
-    print("2. Look up by Monster class")
-    print("3. Look up by Monster Attack Points")
-    print("4. Look up by Monster Defense Points")
-    print("5. Look up by Monster level")
-    print("6. Look up by Monster type")
-    print("7. Look up spell")
-    print("8. Look up trap")
-    print("9. Look up by 2 filters")
-    print("10. Exit")
-    choice = input("Enter your choice (1-9): ")
-    rs = con.cursor
-    print("")
-    if choice == 1:
-        cname = str(raw_input("Enter card name: ")
-        query = 'Select name from Monster where name = %s'
-        rs.execute(query, cname)
-        print("")
-        for (cname) in rs:
-            print(cname[0].encode('utf-8'))
-    elif choice == 2:
-        cclass = str(raw_input("Enter card class (Dark, Light, Earth, Water, Fire, etc.: ")
-        query = 'Select name from Monster where class = %s'
-        rs.execute(query, cclass)
-        print("")
-        for (cclass) in rs:
-            print(cclass[0].encode('utf-8'))
-    elif choice == 3:
-        cname = str(raw_input("Enter card name: ")
-        query = 'Select name from Monster where name = %s'
-        rs.execute(query, cname)
-        print("")
-        for (name) in rs:
-            print(name[0].encode('utf-8'))
-    elif choice == 4:
-        cname = str(raw_input("Enter card name: ")
-        query = 'Select name from Monster where name = %s'
-        rs.execute(query, cname)
-        print("")
-        for (name) in rs:
-            print(name[0].encode('utf-8'))
-    elif choice == 5:
-        cname = str(raw_input("Enter card name: ")
-        query = 'Select name from Monster where name = %s'
-        rs.execute(query, cname)
-        print("")
-        for (name) in rs:
-            print(name[0].encode('utf-8'))
-    elif choice == 6:
-        cname = str(raw_input("Enter card name: ")
-        query = 'Select name from Monster where name = %s'
-        rs.execute(query, cname)
-        print("")
-        for (name) in rs:
-            print(name[0].encode('utf-8'))
-    elif choice == 7:
-        cname = str(raw_input("Enter card name: ")
-        query = 'Select name from Monster where name = %s'
-        rs.execute(query, cname)
-        print("")
-        for (name) in rs:
-            print(name[0].encode('utf-8'))
-    elif choice == 8:
-        cname = str(raw_input("Enter card name: ")
-        query = 'Select name from Monster where name = %s'
-        rs.execute(query, cname)
-        print("")
-        for (name) in rs:
-            print(name[0].encode('utf-8'))
-    elif choice == 9:
-        cname = str(raw_input("Enter card name: ")
-        query = 'Select name from Monster where name = %s'
-        rs.execute(query, cname)
-        print("")
-        for (name) in rs:
-            print(name[0].encode('utf-8'))
-    elif choice == 10:
-
-    else:
-        print("Not a valid delection. Please pick from the choices above")
-
-=======
-	
 def analyzeDeck():
 		print("What category would you like to search cards on?")
 		print("")
@@ -238,7 +150,7 @@ def analyzeDeck():
 				print("")
 				for (name) in rs:
 					print (name[0].encode('utf-8')
-			elif choice2 == 7:
+			elif (choice2 == 7):
 				print('Which filters do you want?')
 				print("1. Look up by name")
 				print("2. Look up by level")
@@ -283,17 +195,14 @@ def analyzeDeck():
 					print('1')
 				elif (filter1 == 4 and filter2 == 6) or (filter1 == 6 and filter2 == 4):
 					print('1')
-				elif (filter1 == 5 and filter2 == 6) or (filter1 == 6 and filter2 == 5):
-				
-				
+               elif (filter1 == 5 and filter2 == 6) or (filter1 == 6 and filter2 == 5):
 		elif choice == 2:
 			print('1')
 		elif choice == 3:
 			print('1')				
 		else:
 			print("Not a valid delection. Please pick from the choices above")
-			
->>>>>>> 481282f038a3cfcfa2d04e830433504449513df3
+
 #Main Menu
 def main():
     exitProgram = False
@@ -311,7 +220,7 @@ def main():
         elif command == 2:
             createDeck()
         elif command == 3:
-            print("3")
+            addCard()
         elif command == 4:
             analyzeDeck()
         elif command == 5:

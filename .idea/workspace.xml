@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc6a2bfe-fa1f-4d10-8454-547e2764fe08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YugiohDB.py" afterPath="$PROJECT_DIR$/YugiohDB.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,27 +20,25 @@
       <file leaf-file-name="YugiohDB.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/YugiohDB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="85" column="18" lean-forward="true" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+            <state relative-caret-position="378">
+              <caret line="60" column="37" lean-forward="true" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-                <marker date="1513198821968" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-                <marker date="1513198821968" expanded="true" signature="658:670" ph="SELECT nameM... " />
-                <marker date="1513198821968" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
-                <marker date="1513198821968" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
-                <marker date="1513198821968" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
-                <marker date="1513198821968" expanded="true" signature="2270:2312" ph="INSERT INTO ConsistsMo... " />
-                <marker date="1513198821968" expanded="true" signature="2634:2676" ph="INSERT INTO ConsistsMa... " />
-                <marker date="1513198821968" expanded="true" signature="2996:3038" ph="INSERT INTO ConsistsTr... " />
-                <marker date="1513198821968" expanded="true" signature="3893:3933" ph="Select name Monster" />
-                <marker date="1513198821968" expanded="true" signature="4188:4229" ph="Select name Monster" />
-                <marker date="1513198821968" expanded="true" signature="4446:4486" ph="Select name Monster" />
-                <marker date="1513198821968" expanded="true" signature="4698:4738" ph="Select name Monster" />
-                <marker date="1513198821968" expanded="true" signature="4950:4990" ph="Select name Monster" />
-                <marker date="1513198821968" expanded="true" signature="5202:5242" ph="Select name Monster" />
-                <marker date="1513198821968" expanded="true" signature="5454:5494" ph="Select name Monster" />
-                <marker date="1513198821968" expanded="true" signature="5706:5746" ph="Select name Monster" />
-                <marker date="1513198821968" expanded="true" signature="5958:5998" ph="Select name Monster" />
+                <marker date="1513201092833" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+                <marker date="1513201092833" expanded="true" signature="658:670" ph="SELECT nameM... " />
+                <marker date="1513201092833" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
+                <marker date="1513201092833" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
+                <marker date="1513201092833" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
+                <marker date="1513201092833" expanded="true" signature="2279:2321" ph="INSERT INTO ConsistsMo... " />
+                <marker date="1513201092833" expanded="true" signature="2681:2723" ph="INSERT INTO ConsistsMa... " />
+                <marker date="1513201092833" expanded="true" signature="3081:3123" ph="INSERT INTO ConsistsTr... " />
+                <marker date="1513201092833" expanded="true" signature="4008:4048" ph="Select name Monster" />
+                <marker date="1513201092833" expanded="true" signature="4240:4281" ph="SELECT name Monster" />
+                <marker date="1513201092833" expanded="true" signature="4515:4577" ph="Select name Monster" />
+                <marker date="1513201092833" expanded="true" signature="4834:4896" ph="Select name Monster" />
+                <marker date="1513201092833" expanded="true" signature="5142:5182" ph="Select name Monster" />
+                <marker date="1513201092833" expanded="true" signature="5407:5448" ph="Select name Monster" />
+                <marker date="1513201092833" expanded="true" signature="6102:6164" ph="Select name,... Monster" />
               </folding>
             </state>
           </provider>
@@ -78,9 +75,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -331,10 +329,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="976" height="1038" extended-state="1" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11064718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.055208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -376,23 +373,21 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1513198821968" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1513198821968" expanded="true" signature="658:670" ph="SELECT nameM... " />
-            <marker date="1513198821968" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1513198821968" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
-            <marker date="1513198821968" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
-            <marker date="1513198821968" expanded="true" signature="2270:2312" ph="INSERT INTO ConsistsMo... " />
-            <marker date="1513198821968" expanded="true" signature="2634:2676" ph="INSERT INTO ConsistsMa... " />
-            <marker date="1513198821968" expanded="true" signature="2996:3038" ph="INSERT INTO ConsistsTr... " />
-            <marker date="1513198821968" expanded="true" signature="3893:3933" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4188:4229" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4446:4486" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4698:4738" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4950:4990" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5202:5242" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5454:5494" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5706:5746" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5958:5998" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513201092833" expanded="true" signature="658:670" ph="SELECT nameM... " />
+            <marker date="1513201092833" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513201092833" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
+            <marker date="1513201092833" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
+            <marker date="1513201092833" expanded="true" signature="2279:2321" ph="INSERT INTO ConsistsMo... " />
+            <marker date="1513201092833" expanded="true" signature="2681:2723" ph="INSERT INTO ConsistsMa... " />
+            <marker date="1513201092833" expanded="true" signature="3081:3123" ph="INSERT INTO ConsistsTr... " />
+            <marker date="1513201092833" expanded="true" signature="4008:4048" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4240:4281" ph="SELECT name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4515:4577" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4834:4896" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5142:5182" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5407:5448" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="6102:6164" ph="Select name,... Monster" />
           </folding>
         </state>
       </provider>
@@ -403,23 +398,21 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1513198821968" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1513198821968" expanded="true" signature="658:670" ph="SELECT nameM... " />
-            <marker date="1513198821968" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1513198821968" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
-            <marker date="1513198821968" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
-            <marker date="1513198821968" expanded="true" signature="2270:2312" ph="INSERT INTO ConsistsMo... " />
-            <marker date="1513198821968" expanded="true" signature="2634:2676" ph="INSERT INTO ConsistsMa... " />
-            <marker date="1513198821968" expanded="true" signature="2996:3038" ph="INSERT INTO ConsistsTr... " />
-            <marker date="1513198821968" expanded="true" signature="3893:3933" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4188:4229" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4446:4486" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4698:4738" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4950:4990" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5202:5242" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5454:5494" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5706:5746" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5958:5998" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513201092833" expanded="true" signature="658:670" ph="SELECT nameM... " />
+            <marker date="1513201092833" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513201092833" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
+            <marker date="1513201092833" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
+            <marker date="1513201092833" expanded="true" signature="2279:2321" ph="INSERT INTO ConsistsMo... " />
+            <marker date="1513201092833" expanded="true" signature="2681:2723" ph="INSERT INTO ConsistsMa... " />
+            <marker date="1513201092833" expanded="true" signature="3081:3123" ph="INSERT INTO ConsistsTr... " />
+            <marker date="1513201092833" expanded="true" signature="4008:4048" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4240:4281" ph="SELECT name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4515:4577" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4834:4896" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5142:5182" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5407:5448" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="6102:6164" ph="Select name,... Monster" />
           </folding>
         </state>
       </provider>
@@ -430,23 +423,21 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1513198821968" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1513198821968" expanded="true" signature="658:670" ph="SELECT nameM... " />
-            <marker date="1513198821968" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1513198821968" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
-            <marker date="1513198821968" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
-            <marker date="1513198821968" expanded="true" signature="2270:2312" ph="INSERT INTO ConsistsMo... " />
-            <marker date="1513198821968" expanded="true" signature="2634:2676" ph="INSERT INTO ConsistsMa... " />
-            <marker date="1513198821968" expanded="true" signature="2996:3038" ph="INSERT INTO ConsistsTr... " />
-            <marker date="1513198821968" expanded="true" signature="3893:3933" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4188:4229" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4446:4486" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4698:4738" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4950:4990" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5202:5242" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5454:5494" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5706:5746" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5958:5998" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513201092833" expanded="true" signature="658:670" ph="SELECT nameM... " />
+            <marker date="1513201092833" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513201092833" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
+            <marker date="1513201092833" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
+            <marker date="1513201092833" expanded="true" signature="2279:2321" ph="INSERT INTO ConsistsMo... " />
+            <marker date="1513201092833" expanded="true" signature="2681:2723" ph="INSERT INTO ConsistsMa... " />
+            <marker date="1513201092833" expanded="true" signature="3081:3123" ph="INSERT INTO ConsistsTr... " />
+            <marker date="1513201092833" expanded="true" signature="4008:4048" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4240:4281" ph="SELECT name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4515:4577" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4834:4896" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5142:5182" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5407:5448" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="6102:6164" ph="Select name,... Monster" />
           </folding>
         </state>
       </provider>
@@ -457,23 +448,21 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1513198821968" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1513198821968" expanded="true" signature="658:670" ph="SELECT nameM... " />
-            <marker date="1513198821968" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1513198821968" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
-            <marker date="1513198821968" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
-            <marker date="1513198821968" expanded="true" signature="2270:2312" ph="INSERT INTO ConsistsMo... " />
-            <marker date="1513198821968" expanded="true" signature="2634:2676" ph="INSERT INTO ConsistsMa... " />
-            <marker date="1513198821968" expanded="true" signature="2996:3038" ph="INSERT INTO ConsistsTr... " />
-            <marker date="1513198821968" expanded="true" signature="3893:3933" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4188:4229" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4446:4486" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4698:4738" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4950:4990" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5202:5242" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5454:5494" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5706:5746" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5958:5998" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513201092833" expanded="true" signature="658:670" ph="SELECT nameM... " />
+            <marker date="1513201092833" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513201092833" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
+            <marker date="1513201092833" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
+            <marker date="1513201092833" expanded="true" signature="2279:2321" ph="INSERT INTO ConsistsMo... " />
+            <marker date="1513201092833" expanded="true" signature="2681:2723" ph="INSERT INTO ConsistsMa... " />
+            <marker date="1513201092833" expanded="true" signature="3081:3123" ph="INSERT INTO ConsistsTr... " />
+            <marker date="1513201092833" expanded="true" signature="4008:4048" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4240:4281" ph="SELECT name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4515:4577" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4834:4896" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5142:5182" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5407:5448" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="6102:6164" ph="Select name,... Monster" />
           </folding>
         </state>
       </provider>
@@ -484,23 +473,21 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1513198821968" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1513198821968" expanded="true" signature="658:670" ph="SELECT nameM... " />
-            <marker date="1513198821968" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1513198821968" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
-            <marker date="1513198821968" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
-            <marker date="1513198821968" expanded="true" signature="2270:2312" ph="INSERT INTO ConsistsMo... " />
-            <marker date="1513198821968" expanded="true" signature="2634:2676" ph="INSERT INTO ConsistsMa... " />
-            <marker date="1513198821968" expanded="true" signature="2996:3038" ph="INSERT INTO ConsistsTr... " />
-            <marker date="1513198821968" expanded="true" signature="3893:3933" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4188:4229" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4446:4486" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4698:4738" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4950:4990" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5202:5242" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5454:5494" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5706:5746" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5958:5998" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513201092833" expanded="true" signature="658:670" ph="SELECT nameM... " />
+            <marker date="1513201092833" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513201092833" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
+            <marker date="1513201092833" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
+            <marker date="1513201092833" expanded="true" signature="2279:2321" ph="INSERT INTO ConsistsMo... " />
+            <marker date="1513201092833" expanded="true" signature="2681:2723" ph="INSERT INTO ConsistsMa... " />
+            <marker date="1513201092833" expanded="true" signature="3081:3123" ph="INSERT INTO ConsistsTr... " />
+            <marker date="1513201092833" expanded="true" signature="4008:4048" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4240:4281" ph="SELECT name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4515:4577" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4834:4896" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5142:5182" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5407:5448" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="6102:6164" ph="Select name,... Monster" />
           </folding>
         </state>
       </provider>
@@ -511,23 +498,21 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1513198821968" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1513198821968" expanded="true" signature="658:670" ph="SELECT nameM... " />
-            <marker date="1513198821968" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1513198821968" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
-            <marker date="1513198821968" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
-            <marker date="1513198821968" expanded="true" signature="2270:2312" ph="INSERT INTO ConsistsMo... " />
-            <marker date="1513198821968" expanded="true" signature="2634:2676" ph="INSERT INTO ConsistsMa... " />
-            <marker date="1513198821968" expanded="true" signature="2996:3038" ph="INSERT INTO ConsistsTr... " />
-            <marker date="1513198821968" expanded="true" signature="3893:3933" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4188:4229" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4446:4486" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4698:4738" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4950:4990" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5202:5242" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5454:5494" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5706:5746" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5958:5998" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513201092833" expanded="true" signature="658:670" ph="SELECT nameM... " />
+            <marker date="1513201092833" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513201092833" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
+            <marker date="1513201092833" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
+            <marker date="1513201092833" expanded="true" signature="2279:2321" ph="INSERT INTO ConsistsMo... " />
+            <marker date="1513201092833" expanded="true" signature="2681:2723" ph="INSERT INTO ConsistsMa... " />
+            <marker date="1513201092833" expanded="true" signature="3081:3123" ph="INSERT INTO ConsistsTr... " />
+            <marker date="1513201092833" expanded="true" signature="4008:4048" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4240:4281" ph="SELECT name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4515:4577" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4834:4896" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5142:5182" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5407:5448" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="6102:6164" ph="Select name,... Monster" />
           </folding>
         </state>
       </provider>
@@ -538,23 +523,21 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1513198821968" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1513198821968" expanded="true" signature="658:670" ph="SELECT nameM... " />
-            <marker date="1513198821968" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1513198821968" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
-            <marker date="1513198821968" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
-            <marker date="1513198821968" expanded="true" signature="2270:2312" ph="INSERT INTO ConsistsMo... " />
-            <marker date="1513198821968" expanded="true" signature="2634:2676" ph="INSERT INTO ConsistsMa... " />
-            <marker date="1513198821968" expanded="true" signature="2996:3038" ph="INSERT INTO ConsistsTr... " />
-            <marker date="1513198821968" expanded="true" signature="3893:3933" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4188:4229" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4446:4486" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4698:4738" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4950:4990" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5202:5242" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5454:5494" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5706:5746" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5958:5998" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513201092833" expanded="true" signature="658:670" ph="SELECT nameM... " />
+            <marker date="1513201092833" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513201092833" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
+            <marker date="1513201092833" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
+            <marker date="1513201092833" expanded="true" signature="2279:2321" ph="INSERT INTO ConsistsMo... " />
+            <marker date="1513201092833" expanded="true" signature="2681:2723" ph="INSERT INTO ConsistsMa... " />
+            <marker date="1513201092833" expanded="true" signature="3081:3123" ph="INSERT INTO ConsistsTr... " />
+            <marker date="1513201092833" expanded="true" signature="4008:4048" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4240:4281" ph="SELECT name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4515:4577" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4834:4896" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5142:5182" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5407:5448" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="6102:6164" ph="Select name,... Monster" />
           </folding>
         </state>
       </provider>
@@ -565,23 +548,21 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1513198821968" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1513198821968" expanded="true" signature="658:670" ph="SELECT nameM... " />
-            <marker date="1513198821968" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1513198821968" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
-            <marker date="1513198821968" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
-            <marker date="1513198821968" expanded="true" signature="2270:2312" ph="INSERT INTO ConsistsMo... " />
-            <marker date="1513198821968" expanded="true" signature="2634:2676" ph="INSERT INTO ConsistsMa... " />
-            <marker date="1513198821968" expanded="true" signature="2996:3038" ph="INSERT INTO ConsistsTr... " />
-            <marker date="1513198821968" expanded="true" signature="3893:3933" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4188:4229" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4446:4486" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4698:4738" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4950:4990" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5202:5242" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5454:5494" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5706:5746" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5958:5998" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513201092833" expanded="true" signature="658:670" ph="SELECT nameM... " />
+            <marker date="1513201092833" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513201092833" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
+            <marker date="1513201092833" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
+            <marker date="1513201092833" expanded="true" signature="2279:2321" ph="INSERT INTO ConsistsMo... " />
+            <marker date="1513201092833" expanded="true" signature="2681:2723" ph="INSERT INTO ConsistsMa... " />
+            <marker date="1513201092833" expanded="true" signature="3081:3123" ph="INSERT INTO ConsistsTr... " />
+            <marker date="1513201092833" expanded="true" signature="4008:4048" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4240:4281" ph="SELECT name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4515:4577" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4834:4896" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5142:5182" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5407:5448" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="6102:6164" ph="Select name,... Monster" />
           </folding>
         </state>
       </provider>
@@ -592,23 +573,21 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1513198821968" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1513198821968" expanded="true" signature="658:670" ph="SELECT nameM... " />
-            <marker date="1513198821968" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1513198821968" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
-            <marker date="1513198821968" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
-            <marker date="1513198821968" expanded="true" signature="2270:2312" ph="INSERT INTO ConsistsMo... " />
-            <marker date="1513198821968" expanded="true" signature="2634:2676" ph="INSERT INTO ConsistsMa... " />
-            <marker date="1513198821968" expanded="true" signature="2996:3038" ph="INSERT INTO ConsistsTr... " />
-            <marker date="1513198821968" expanded="true" signature="3893:3933" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4188:4229" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4446:4486" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4698:4738" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4950:4990" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5202:5242" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5454:5494" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5706:5746" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5958:5998" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513201092833" expanded="true" signature="658:670" ph="SELECT nameM... " />
+            <marker date="1513201092833" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513201092833" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
+            <marker date="1513201092833" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
+            <marker date="1513201092833" expanded="true" signature="2279:2321" ph="INSERT INTO ConsistsMo... " />
+            <marker date="1513201092833" expanded="true" signature="2681:2723" ph="INSERT INTO ConsistsMa... " />
+            <marker date="1513201092833" expanded="true" signature="3081:3123" ph="INSERT INTO ConsistsTr... " />
+            <marker date="1513201092833" expanded="true" signature="4008:4048" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4240:4281" ph="SELECT name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4515:4577" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4834:4896" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5142:5182" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5407:5448" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="6102:6164" ph="Select name,... Monster" />
           </folding>
         </state>
       </provider>
@@ -619,23 +598,21 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1513198821968" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1513198821968" expanded="true" signature="658:670" ph="SELECT nameM... " />
-            <marker date="1513198821968" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1513198821968" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
-            <marker date="1513198821968" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
-            <marker date="1513198821968" expanded="true" signature="2270:2312" ph="INSERT INTO ConsistsMo... " />
-            <marker date="1513198821968" expanded="true" signature="2634:2676" ph="INSERT INTO ConsistsMa... " />
-            <marker date="1513198821968" expanded="true" signature="2996:3038" ph="INSERT INTO ConsistsTr... " />
-            <marker date="1513198821968" expanded="true" signature="3893:3933" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4188:4229" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4446:4486" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4698:4738" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4950:4990" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5202:5242" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5454:5494" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5706:5746" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5958:5998" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513201092833" expanded="true" signature="658:670" ph="SELECT nameM... " />
+            <marker date="1513201092833" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513201092833" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
+            <marker date="1513201092833" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
+            <marker date="1513201092833" expanded="true" signature="2279:2321" ph="INSERT INTO ConsistsMo... " />
+            <marker date="1513201092833" expanded="true" signature="2681:2723" ph="INSERT INTO ConsistsMa... " />
+            <marker date="1513201092833" expanded="true" signature="3081:3123" ph="INSERT INTO ConsistsTr... " />
+            <marker date="1513201092833" expanded="true" signature="4008:4048" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4240:4281" ph="SELECT name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4515:4577" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4834:4896" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5142:5182" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5407:5448" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="6102:6164" ph="Select name,... Monster" />
           </folding>
         </state>
       </provider>
@@ -646,23 +623,21 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1513198821968" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1513198821968" expanded="true" signature="658:670" ph="SELECT nameM... " />
-            <marker date="1513198821968" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1513198821968" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
-            <marker date="1513198821968" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
-            <marker date="1513198821968" expanded="true" signature="2270:2312" ph="INSERT INTO ConsistsMo... " />
-            <marker date="1513198821968" expanded="true" signature="2634:2676" ph="INSERT INTO ConsistsMa... " />
-            <marker date="1513198821968" expanded="true" signature="2996:3038" ph="INSERT INTO ConsistsTr... " />
-            <marker date="1513198821968" expanded="true" signature="3893:3933" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4188:4229" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4446:4486" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4698:4738" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4950:4990" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5202:5242" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5454:5494" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5706:5746" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5958:5998" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513201092833" expanded="true" signature="658:670" ph="SELECT nameM... " />
+            <marker date="1513201092833" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513201092833" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
+            <marker date="1513201092833" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
+            <marker date="1513201092833" expanded="true" signature="2279:2321" ph="INSERT INTO ConsistsMo... " />
+            <marker date="1513201092833" expanded="true" signature="2681:2723" ph="INSERT INTO ConsistsMa... " />
+            <marker date="1513201092833" expanded="true" signature="3081:3123" ph="INSERT INTO ConsistsTr... " />
+            <marker date="1513201092833" expanded="true" signature="4008:4048" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4240:4281" ph="SELECT name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4515:4577" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4834:4896" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5142:5182" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5407:5448" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="6102:6164" ph="Select name,... Monster" />
           </folding>
         </state>
       </provider>
@@ -678,27 +653,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/YugiohDB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="85" column="18" lean-forward="true" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+        <state relative-caret-position="378">
+          <caret line="60" column="37" lean-forward="true" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1513198821968" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
-            <marker date="1513198821968" expanded="true" signature="658:670" ph="SELECT nameM... " />
-            <marker date="1513198821968" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
-            <marker date="1513198821968" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
-            <marker date="1513198821968" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
-            <marker date="1513198821968" expanded="true" signature="2270:2312" ph="INSERT INTO ConsistsMo... " />
-            <marker date="1513198821968" expanded="true" signature="2634:2676" ph="INSERT INTO ConsistsMa... " />
-            <marker date="1513198821968" expanded="true" signature="2996:3038" ph="INSERT INTO ConsistsTr... " />
-            <marker date="1513198821968" expanded="true" signature="3893:3933" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4188:4229" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4446:4486" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4698:4738" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="4950:4990" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5202:5242" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5454:5494" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5706:5746" ph="Select name Monster" />
-            <marker date="1513198821968" expanded="true" signature="5958:5998" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="400:418" ph="SELECT * FRO... Deck" />
+            <marker date="1513201092833" expanded="true" signature="658:670" ph="SELECT nameM... " />
+            <marker date="1513201092833" expanded="true" signature="658:807" ph="SELECT nameM... ConsistsMo" />
+            <marker date="1513201092833" expanded="true" signature="1200:1232" ph="INSERT INTO Deck... " />
+            <marker date="1513201092833" expanded="true" signature="1481:1542" ph="SELECT name Deck" />
+            <marker date="1513201092833" expanded="true" signature="2279:2321" ph="INSERT INTO ConsistsMo... " />
+            <marker date="1513201092833" expanded="true" signature="2681:2723" ph="INSERT INTO ConsistsMa... " />
+            <marker date="1513201092833" expanded="true" signature="3081:3123" ph="INSERT INTO ConsistsTr... " />
+            <marker date="1513201092833" expanded="true" signature="4008:4048" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4240:4281" ph="SELECT name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4515:4577" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="4834:4896" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5142:5182" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="5407:5448" ph="Select name Monster" />
+            <marker date="1513201092833" expanded="true" signature="6102:6164" ph="Select name,... Monster" />
           </folding>
         </state>
       </provider>
