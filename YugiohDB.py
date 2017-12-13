@@ -42,6 +42,10 @@ def createDeck():
     print("Deck has been created.")
     rs.close()
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b5fc88cde3c8834427dca37451b1f960e0a27a50
 #add card to a deck
 def addCard():
     dName = str(raw_input("Enter deck's name: "))
@@ -86,6 +90,10 @@ def addCard():
         elif (confirm == 'n' or confirm == 'no'):
             analyzeDeck()
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b5fc88cde3c8834427dca37451b1f960e0a27a50
 def analyzeDeck():
 		print("What category would you like to search cards on?")
 		print("")
@@ -202,7 +210,11 @@ def analyzeDeck():
 			print('1')				
 		else:
 			print("Not a valid delection. Please pick from the choices above")
+<<<<<<< HEAD
 
+=======
+			
+>>>>>>> b5fc88cde3c8834427dca37451b1f960e0a27a50
 #Main Menu
 def main():
     exitProgram = False
