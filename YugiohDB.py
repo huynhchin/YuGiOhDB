@@ -42,10 +42,6 @@ def createDeck():
     print("Deck has been created.")
     rs.close()
 
-<<<<<<< HEAD
-=======
-
->>>>>>> b5fc88cde3c8834427dca37451b1f960e0a27a50
 #add card to a deck
 def addCard():
     dName = str(raw_input("Enter deck's name: "))
@@ -90,18 +86,15 @@ def addCard():
         elif (confirm == 'n' or confirm == 'no'):
             analyzeDeck()
 
-<<<<<<< HEAD
-=======
 
->>>>>>> b5fc88cde3c8834427dca37451b1f960e0a27a50
 def analyzeDeck():
 		print("What category would you like to search cards on?")
 		print("")
 		print("1. Look up Monster Card")
 		print("2. Look up Magic Card")
 		print("3. Look up Trap Card")
+		print("")
 		choice = input("Enter your choice (1-3): ")
-		rs = con.cursor
 		print("")
 		if choice == 1:
 			print("1. Look up by name")
@@ -111,110 +104,152 @@ def analyzeDeck():
 			print("5. Look up by Type")
 			print("6. Look up by Class")
 			print("7. Look up by 2 filters")
+			print("")
 			choice2 = input("Enter choice: ")
 			print("")
 			if choice2 == 1:
-				c_name = str(raw_input('Enter card name: ')
-				query = "Select name from Monster where name = %s"
-				rs.execute(query, c_name)
+				rs = con.cursor()
+				c_name = str(raw_input('Enter card name: '))
+				query = "Select * from Monster where name = '%s'" %c_name
+				rs.execute(query)
 				print("")
-				for (cname) in rs:
-					print(c_name[0].encode('utf-8'))
+				row = rs.fetchone()
+				if row is not None:
+					result = "{}:\nClass = {}\nType = {}\nLevel = {}\nAttack Points = {}\nDefense Points = {}\nDescription = {}\nTips = {}\n"
+					result = result.format(row[5], row[0], row[2], row[4], row[6], row[7], row[3], row[1])
+					print(result)
+				rs.close()
 			elif choice2 == 2:
+				rs2 = con.cursor()
 				c_level = input('Enter Card level (1-12): ')
-				query2 = 'SELECT name FROM Monster WHERE level = %s'
-				rs.execute(query2, c_level)
+				#query2 = "SELECT * FROM Monster WHERE level = '%s'" %c_level
+				query2 = "SELECT name, class, type, level, Attack_Points, Defense_Point, description, tips FROM Monster WHERE level = '%s'" %c_level
+				rs2.execute(query2)
 				print("")
-				for (name) in rs:
-					print (name[0].encode('utf-8')
+				row2 = rs2.fetchall()
+				i = 1
+				for result in row2:
+					print(i)
+					print(" | ".join(map(str, result)))
+					i += 1
+				rs2.close()
 			elif choice2 == 3:
-				c_Attack_max = input('Enter Max Value: ')
+				rs3 = con.cursor()
 				c_Attack_min = input('Enter Min Value: ')
-				query3 = 'Select name from Monster where Attack_Points between %s AND %s'
-				rs.execute(query3, (c_Attack_min, c_Attack_max))
+				c_Attack_max = input('Enter Max Value: ')
+				query3 = "Select name, class, type, level, Attack_Points, Defense_Point, description, tips from Monster where Attack_Points between '%s' AND '%s' ORDER BY Attack_Points DESC" %(c_Attack_min, c_Attack_max)
+				rs3.execute(query3)
 				print("")
-				for (name) in rs:
-					print (name[0].encode('utf-8')
+				row3 = rs3.fetchall()
+				i = 1
+				for result in row3:
+					print(i)
+					print(" | ".join(map(str, result)))
+					i += 1
+				rs3.close()
 			elif choice2 == 4:
-				c_Defense_max = input('Enter Max Value: ')
+				rs4 = con.cursor()
 				c_Defense_min = input('Enter Min Value: ')
-				query4 = 'Select name from Monster where Defense_Point between %s AND %s'
-				rs.execute(query4, (c_Defense_min, c_Defense_max))
+				c_Defense_max = input('Enter Max Value: ')
+				query4 = "Select name, class, type, level, Attack_Points, Defense_Point, description, tips from Monster where Defense_Point between '%s' AND '%s' ORDER BY Defense_Point DESC" %(c_Defense_min, c_Defense_max)
+				rs4.execute(query4)
 				print("")
-				for (name) in rs:
-					print (name[0].encode('utf-8')
+				row4 = rs4.fetchall()
+				i = 1
+				for result in row4:
+					print(i)
+					print(" | ".join(map(str, result)))
+					i += 1
+				rs4.close()
 			elif choice2 == 5:
+				rs5 = con.cursor()
 				c_type = str(raw_input('Enter type of Monster: '))
-				c_type = '%' + c_type
-				query5 = 'Select name from Monster where type = %s'
-				rs.execute(query5, c_type)
+				c_type = '%' + c_type + '%'
+				query5 = "Select name, class, type, level, Attack_Points, Defense_Point, description, tips from Monster where type LIKE '%s'" %c_type
+				rs5.execute(query5)
 				print("")
-				for (name) in rs:
-					print (name[0].encode('utf-8')
+				row5 = rs5.fetchall()
+				i = 1
+				for result in row5:
+					print(i)
+					print(" | ".join(map(str, result)))
+					i += 1
+				rs5.close()
 			elif choice2 == 6:
-				c_class = input('Enter Card Class (Dark, Light, Earth, Water, Fire, Divine): ')
-				query2 = 'Select name from Monster where class = %s'
-				rs.execute(query2, c_class)
+				rs6 = con.cursor()
+				c_class = str(raw_input('Enter Card Class (Dark, Light, Earth, Water, Fire, Divine): '))
+				query6 = "Select name, class, type, level, Attack_Points, Defense_Point, description, tips from Monster where class = '%s'" %c_class
+				rs6.execute(query6)
 				print("")
-				for (name) in rs:
-					print (name[0].encode('utf-8')
+				row6 = rs6.fetchall()
+				i = 1
+				for result in row6:
+					print(i)
+					print(" | ".join(map(str, result)))
+					i += 1
+				rs6.close()
 			elif (choice2 == 7):
 				print('Which filters do you want?')
-				print("1. Look up by name")
-				print("2. Look up by level")
-				print("3. Look up by Attack")
-				print("4. Look up by Defense")
-				print("5. Look up by Type")
-				print("6. Look up by Class")
+				print("1. Look up by Level")
+				print("2. Look up by Attack")
+				print("3. Look up by Defense")
+				print("4. Look up by Type")
+				print("5. Look up by Class")
+				print("")
 				filter1 = input('Enter Number of 1st filter: ')
 				filter2 = input('Enter Number of 2nd filter: ')
 				if (filter1 == 1 and filter2 == 2) or (filter1 == 2 and filter2 == 1):
-					f_name = str(raw_input('Enter card name: ')
-					f_level = input('Enter Card level: ')
-					query = 'Select name, level from Monster where name = %s AND level = %s'
-					rs.execute(query, (f_name, f_level)
+					rs7 = con.cursor()
 					print("")
-					for (f_name, f_level) in rs:
-						print(f_name[0].encode('utf-8'), f_level[0].encode('utf-8'))
-						
-				elif (filter1 == 1 and filter2 == 3) or (filter1 == 3 and filter2 == 1):
-					print('1')
-				elif (filter1 == 2 and filter2 == 3) or (filter1 == 3 and filter2 == 2):
-					print('1')
-				elif (filter1 == 1 and filter2 == 4) or (filter1 == 4 and filter2 == 1):
-					print('1')
-				elif (filter1 == 2 and filter2 == 4) or (filter1 == 4 and filter2 == 2):
-					print('1')
-				elif (filter1 == 3 and filter2 == 4) or (filter1 == 4 and filter2 == 3):
-					print('1')
-				elif (filter1 == 1 and filter2 == 5) or (filter1 == 5 and filter2 == 1):
-					print('1')
-				elif (filter1 == 2 and filter2 == 5) or (filter1 == 5 and filter2 == 2):
-					print('1')
-				elif (filter1 == 3 and filter2 == 5) or (filter1 == 5 and filter2 == 3):
-					print('1')
-				elif (filter1 == 4 and filter2 == 5) or (filter1 == 5 and filter2 == 4):
-					print('1')
-				elif (filter1 == 1 and filter2 == 6) or (filter1 == 6 and filter2 == 1):
-					print('1')
-				elif (filter1 == 2 and filter2 == 6) or (filter1 == 6 and filter2 == 2):
-					print('1')
-				elif (filter1 == 3 and filter2 == 6) or (filter1 == 6 and filter2 == 3):
-					print('1')
-				elif (filter1 == 4 and filter2 == 6) or (filter1 == 6 and filter2 == 4):
-					print('1')
-               elif (filter1 == 5 and filter2 == 6) or (filter1 == 6 and filter2 == 5):
-		elif choice == 2:
-			print('1')
-		elif choice == 3:
-			print('1')				
-		else:
-			print("Not a valid delection. Please pick from the choices above")
-<<<<<<< HEAD
+					f_level = input('Enter Card Level: ')
+					c_Attack_min = input('Enter Attack Min Value: ')
+					c_Attack_max = input('Enter Attack Max Value: ')
+					query7 = "Select name, class, type, level, Attack_Points, Defense_Point, description, tips from Monster where level = '%s' AND Attack_Points between '%s' AND '%s'" %(f_level, c_Attack_min, c_Attack_max)
+					rs7.execute(query7)
+					print("")
+					row7 = rs7.fetchall()
+					i = 1
+					for result in row7:
+						print(i)
+						print(" | ".join(map(str, result)))
+						i += 1
+					rs7.close()
+##						
+##				elif (filter1 == 1 and filter2 == 3) or (filter1 == 3 and filter2 == 1):
+##					print('1')
+##				elif (filter1 == 2 and filter2 == 3) or (filter1 == 3 and filter2 == 2):
+##					print('1')
+##				elif (filter1 == 1 and filter2 == 4) or (filter1 == 4 and filter2 == 1):
+##					print('1')
+##				elif (filter1 == 2 and filter2 == 4) or (filter1 == 4 and filter2 == 2):
+##					print('1')
+##				elif (filter1 == 3 and filter2 == 4) or (filter1 == 4 and filter2 == 3):
+##					print('1')
+##				elif (filter1 == 1 and filter2 == 5) or (filter1 == 5 and filter2 == 1):
+##					print('1')
+##v				elif (filter1 == 2 and filter2 == 5) or (filter1 == 5 and filter2 == 2):
+##					print('1')
+##				elif (filter1 == 3 and filter2 == 5) or (filter1 == 5 and filter2 == 3):
+##					print('1')
+##				elif (filter1 == 4 and filter2 == 5) or (filter1 == 5 and filter2 == 4):
+##					print('1')
+##				elif (filter1 == 1 and filter2 == 6) or (filter1 == 6 and filter2 == 1):
+##					print('1')
+##				elif (filter1 == 2 and filter2 == 6) or (filter1 == 6 and filter2 == 2):
+#v#					print('1')
+##				elif (filter1 == 3 and filter2 == 6) or (filter1 == 6 and filter2 == 3):
+##					print('1')
+##				elif (filter1 == 4 and filter2 == 6) or (filter1 == 6 and filter2 == 4):
+##					print('1')
+ ##              elif (filter1 == 5 and filter2 == 6) or (filter1 == 6 and filter2 == 5):
+##		elif choice == 2:
+##			print('1')
+##		elif choice == 3:
+##			print('1')				
+##		else:
+##			print("Not a valid delection. Please pick from the choices above")
 
-=======
-			
->>>>>>> b5fc88cde3c8834427dca37451b1f960e0a27a50
+
 #Main Menu
 def main():
     exitProgram = False
